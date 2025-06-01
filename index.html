@@ -520,20 +520,44 @@
 <style>
 /* --- Form Popup Styling --- */
 .form-popup {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    width: 350px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    font-family: Arial, sans-serif;
-    overflow: hidden;
+    display: none !important;
+    position: fixed !important;
+    z-index: 99999 !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    width: 350px !important;
+    height: fit-content !important;
+    background: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    font-family: Arial, sans-serif !important;
+    overflow: hidden !important;
 }
 
+/* Alternative centering method */
+.form-popup.show {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0,0,0,0.5) !important;
+    z-index: 99999 !important;
+}
+
+.form-popup.show > div {
+    background: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    width: 350px !important;
+    max-width: 90vw !important;
+}
 
 .form-popup-header {
     background: #f1f726;
@@ -577,6 +601,7 @@
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 .form-popup-content button {
@@ -598,7 +623,7 @@
     text-align: center;
 }
 </style>
-
+<!-- HTML (Image + View Button) -->
 <!-- HTML (Image + View Button) -->
 <div class="wpo-plan-img" style="position: relative;">
     <button class="wpo-view-btn" onclick="openForm()">View</button>
@@ -606,26 +631,33 @@
 
 <!-- Hidden Popup Form -->
 <div class="form-popup" id="popupForm">
-    <div class="form-popup-header">
-        <img src="assets/images/logo.png" alt="Logo" />
-        <button class="close-btn" onclick="closeForm()">×</button>
-    </div>
-    <div class="form-popup-content">
-        <h2>Get Exclusive Updates</h2>
-        <input type="text" placeholder="Full Name *" required>
-        <input type="email" placeholder="Email Address (Optional)">
-        <input type="tel" placeholder="Phone Number *" required>
-        <button type="submit">SUBMIT</button>
-    </div>
-    <div class="form-popup-footer">
-        By submitting, you agree to receive updates about exclusive properties.
+    <div>
+        <div class="form-popup-header">
+            <img src="assets/images/logo.png" alt="Logo" />
+            <button class="close-btn" onclick="closeForm()">×</button>
+        </div>
+        <div class="form-popup-content">
+            <h2>Get Exclusive Updates</h2>
+            <input type="text" placeholder="Full Name *" required>
+            <input type="email" placeholder="Email Address (Optional)">
+            <input type="tel" placeholder="Phone Number *" required>
+            <button type="submit">SUBMIT</button>
+        </div>
+        <div class="form-popup-footer">
+            By submitting, you agree to receive updates about exclusive properties.
+        </div>
     </div>
 </div>
+
 
 <!-- JavaScript -->
 <script>
 function openForm() {
-    document.getElementById("popupForm").style.display = "block";
+    const form = document.getElementById("popupForm");
+    // Use flex to enable flexbox layout
+    form.style.display = "flex";
+    // You can also set flex-direction or other flex properties here if needed
+    form.style.flexDirection = "column"; // example
 }
 
 function closeForm() {
