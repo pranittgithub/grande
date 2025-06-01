@@ -489,10 +489,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <div class="wpo-section-title">
-                            <small>floor plans</small>
-                            <h2>spilon squat <span>property</span> floor plans.</h2>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="wpo-plan-wrap">
@@ -505,7 +502,7 @@
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="ground-floor-tab" data-bs-toggle="tab"
                                     href="#ground-floor" role="tab" aria-controls="ground-floor"
-                                    aria-selected="false">ground floor</a>
+                                    aria-selected="false">ELITE CLUB</a>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="first-floor-tab" data-bs-toggle="tab" href="#first-floor"
@@ -513,11 +510,215 @@
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="second-floor-tab" data-bs-toggle="tab" href="#second-floor"
-                                    role="tab" aria-controls="second-floor" aria-selected="false">1BHK-ISOMERIC VIEW</a>
+                                    role="tab" aria-controls="second-floor" aria-selected="false">1BHK-ISOMERIC</a>
                             </li>
                             
                         </ul>
                     </div>
+
+                    <!-- CSS -->
+<style>
+/* --- Form Popup Styling --- */
+.form-popup {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+
+.form-popup-header {
+    background: #f1f726;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.form-popup-header img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form-popup-content {
+    padding: 20px;
+}
+
+.form-popup-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form-popup-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-popup-content button {
+    width: 100%;
+    background: #f1f726;
+    color: #000;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-popup-footer {
+    font-size: 12px;
+    color: gray;
+    padding: 0 20px 20px;
+    text-align: center;
+}
+</style>
+
+<!-- HTML (Image + View Button) -->
+<div class="wpo-plan-img" style="position: relative;">
+    <button class="wpo-view-btn" onclick="openForm()">View</button>
+</div>
+
+<!-- Hidden Popup Form -->
+<div class="form-popup" id="popupForm">
+    <div class="form-popup-header">
+        <img src="assets/images/logo.png" alt="Logo" />
+        <button class="close-btn" onclick="closeForm()">×</button>
+    </div>
+    <div class="form-popup-content">
+        <h2>Get Exclusive Updates</h2>
+        <input type="text" placeholder="Full Name *" required>
+        <input type="email" placeholder="Email Address (Optional)">
+        <input type="tel" placeholder="Phone Number *" required>
+        <button type="submit">SUBMIT</button>
+    </div>
+    <div class="form-popup-footer">
+        By submitting, you agree to receive updates about exclusive properties.
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+function openForm() {
+    document.getElementById("popupForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+}
+</script>
+
+
+<style>
+    .wpo-plan-img {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .wpo-plan-img img {
+        width: 100%;
+        display: block;
+        filter: blur(5px); /* Blurs the image */
+    }
+
+    .wpo-view-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 1;
+    }
+</style>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in" id="basement">
+        <div class="wpo-plan-item">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-12">
+                   <div class="wpo-plan-img">
+    <img src="assets/images/about/livinng.png" alt="Basement" style="filter: blur(5px); width: 100%;">
+    <button class="wpo-view-btn" onclick="openForm()">View</button>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane fade in show active" id="ground-floor">
+        <div class="wpo-plan-item">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-12">
+                    <div class="wpo-plan-img">
+                        <img src="assets/images/about/elite.png" alt="Basement" style="filter: blur(5px); width: 100%;">
+    <button class="wpo-view-btn" onclick="openForm()">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane fade in" id="first-floor">
+        <div class="wpo-plan-item">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-12">
+                    <div class="wpo-plan-img">
+                        <img src="assets/images/about/floor.png" alt="Basement" style="filter: blur(5px); width: 100%;">
+    <button class="wpo-view-btn" onclick="openForm()">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane fade in" id="second-floor">
+        <div class="wpo-plan-item">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-12">
+                    <div class="wpo-plan-img">
+                        <img src="assets/images/about/1bhk.png" alt="Basement" style="filter: blur(5px); width: 100%;">
+    <button class="wpo-view-btn" onclick="openForm()">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in" id="basement">
@@ -525,7 +726,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-8 col-md-12">
                                         <div class="wpo-plan-img">
-                                            <img src="assets/images/plan/plan.png" alt="">
+                                            <img src="assets/images/about/livinng.png" alt="">
                                         </div>
                                     </div>
                                     
@@ -537,7 +738,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-8 col-md-12">
                                         <div class="wpo-plan-img">
-                                            <img src="assets/images/plan/plan.png" alt="">
+                                            <!-- <img src="assets/images/about/elite.png" alt=""> -->
                                         </div>
                                     </div>
                                     
@@ -549,7 +750,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-8 col-md-12">
                                         <div class="wpo-plan-img">
-                                            <img src="assets/images/plan/plan.png" alt="">
+                                            <img src="assets/images/about/floor.png" alt="">
                                         </div>
                                     </div>
                                     
@@ -561,7 +762,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-8 col-md-12">
                                         <div class="wpo-plan-img">
-                                            <img src="assets/images/plan/plan.png" alt="">
+                                            <img src="assets/images/about/1bhk.png" alt="">
                                         </div>
                                     </div>
                                     
