@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Theme Name:  Suqat- Real Estate Single Property Template
+Theme Name:  Grande- Real Estate Single Property Template
 Version:        1.0.0
 -------------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -267,45 +267,9 @@ img {
 }
 
 /*** back to top **/
-.back-to-top {
-  background-color: rgba(229, 243, 70, 0.7);
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  border: 2px solid #E5F346;
-  border-radius: 45px;
-  text-align: center;
-  display: none;
-  position: fixed;
-  z-index: 999;
-  right: 15px;
-  bottom: 15px;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
 
-@media (max-width: 991px) {
-  .back-to-top {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-  }
-}
 
-.back-to-top:hover {
-  background-color: #E5F346;
-}
 
-.back-to-top i {
-  font-size: 18px;
-  font-size: 1.2rem;
-  color: #1C1817;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 /** for popup image ***/
 .mfp-wrap {
@@ -13007,3 +12971,24 @@ img {
   border: 1px dashed #E5F346;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
