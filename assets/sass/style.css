@@ -73,6 +73,10 @@ Version:        1.0.0
 /*---------------------------
 	Fonts
 ----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&amp;family=Sora:wght@300;400;500;600;700;800&amp;display=swap");
 /* 1.1 Theme Reset Style */
 html {
@@ -84,7 +88,7 @@ html {
 }
 
 body {
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   color: #687693;
   background-color: #fff;
   font-size: 15px;
@@ -115,7 +119,7 @@ h4,
 h5,
 h6 {
   color: #1C1817;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 600;
 }
 
@@ -345,7 +349,7 @@ img {
 .wpo-section-title-s2 h2 {
   margin: 0;
   position: relative;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 58px;
   font-style: normal;
   font-weight: 500;
@@ -453,7 +457,7 @@ img {
 .theme-btn-s2 {
   color: #E5F346;
   display: inline-block;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 25px;
@@ -693,7 +697,7 @@ img {
   color: #fff;
   position: relative;
   font-size: 20px;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
 }
 
 @media (max-width: 767px) {
@@ -956,7 +960,7 @@ img {
   margin: 0 0 1.3em;
   position: relative;
   text-transform: capitalize;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -1101,7 +1105,7 @@ img {
 }
 
 .blog-sidebar .about-widget a {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 14px;
   font-size: 0.93333rem;
   color: #1C1817;
@@ -1199,7 +1203,7 @@ img {
   font-weight: 500;
   line-height: 1.3em;
   margin: 0 0 0.3em;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
 }
 
 @media (max-width: 1199px) {
@@ -2215,7 +2219,7 @@ img {
 
 .mini-cart-content .mini-cart-item-des .mini-cart-item-price {
   font-size: 13px;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   color: #888;
   display: block;
   margin-top: 3px;
@@ -2262,7 +2266,7 @@ img {
 
 .mini-cart-content .mini-cart-action .mini-checkout-price {
   font-size: 16px;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 600;
   color: #1C1817;
   display: block;
@@ -2281,7 +2285,7 @@ img {
 .mini-cart-content .mini-cart-action .mini-checkout-price span {
   color: #adb927;
   font-size: 20px;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
 }
 
 .mini-cart-content-toggle,
@@ -2445,7 +2449,7 @@ img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    font-family: "Epilogue";
+    font-family: "Marcellus", serif;
     text-transform: uppercase;
   }
 }
@@ -2490,7 +2494,7 @@ img {
     overflow: hidden;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: "Epilogue";
+    font-family: "Marcellus", serif;
   }
 }
 
@@ -3084,7 +3088,7 @@ img {
   line-height: normal;
   text-transform: uppercase;
   color: #1C1817;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
 }
 
 @media (max-width: 1199px) {
@@ -3100,7 +3104,7 @@ img {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   color: #1C1817;
   margin-top: 6px;
 }
@@ -3627,7 +3631,7 @@ img {
 .wpo-hero-slider .hero-right-video p,
 .wpo-hero-slider-s2 .hero-right-video p {
   font-size: 13px;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -4024,7 +4028,7 @@ img {
 }
 
 .wpo-hero-slider-1 .slide-subtitle p {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -4068,7 +4072,7 @@ img {
   line-height: normal;
   text-transform: uppercase;
   color: #1C1817;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
 }
 
 .wpo-hero-slider-1 .hero-btn p {
@@ -4078,7 +4082,7 @@ img {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   color: #1C1817;
   margin-top: 6px;
 }
@@ -4412,7 +4416,7 @@ img {
 
 .hero-left-content .hero-left-video p {
   font-size: 13px;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -4752,7 +4756,7 @@ img {
   font-weight: 500;
   line-height: 45px;
   text-transform: uppercase;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   margin-bottom: 60px;
 }
 
@@ -5263,7 +5267,7 @@ img {
 }
 
 .wpo-about-section .wpo-about-wrap .about-content h3 {
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -5435,7 +5439,7 @@ img {
 .wpo-payment-section .wpo-payment-wrap .payment-form-area .form-group label,
 .wpo-payment-section-s2 .wpo-payment-wrap .payment-form-area .form-group label {
   display: block;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -5502,7 +5506,7 @@ img {
 
 .wpo-payment-section .wpo-payment-wrap .payment-result .result-item span,
 .wpo-payment-section-s2 .wpo-payment-wrap .payment-result .result-item span {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -5745,7 +5749,7 @@ img {
   text-align: center;
   margin: 0 10px;
   border-radius: 0;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -5857,7 +5861,7 @@ img {
 
 .wpo-plan-section .wpo-plan-wrap .wpo-plan-content ul li,
 .wpo-plan-section-s2 .wpo-plan-wrap .wpo-plan-content ul li {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -6033,7 +6037,7 @@ img {
 .wpo-property-section-s2 .card-single .text h2 a {
   color: #4B3832;
   font-size: 22px;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 400;
   line-height: 33px;
   text-transform: uppercase;
@@ -6264,7 +6268,7 @@ img {
   line-height: normal;
   text-transform: uppercase;
   color: #1C1817;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   background: #F5F6E4;
   display: block;
   height: 68px;
@@ -6564,7 +6568,7 @@ img {
 .wpo-team-section-s2 .wpo-team-wrap .wpo-team-item .wpo-team-content p,
 .wpo-team-section-s2 .wpo-team-wrap-s2 .wpo-team-item .wpo-team-content p,
 .wpo-team-section-s2 .wpo-team-wrap-s3 .wpo-team-item .wpo-team-content p {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 600;
@@ -8042,7 +8046,7 @@ img {
 .wpo-fun-fact-section .grid h3,
 .wpo-fun-fact-section-s2 .grid h3 {
   margin: 0 0 0.2em;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8072,7 +8076,7 @@ img {
 .wpo-fun-fact-section-s2 .grid h3 + p {
   text-transform: uppercase;
   color: #1C1817;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -9276,7 +9280,7 @@ img {
   top: -5%;
   left: 5%;
   font-weight: 400;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
 }
 
 .progress .progress-bar {
@@ -9709,7 +9713,7 @@ img {
 
 .wpo-shop-section .details h3 a {
   color: #1C1817;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
 }
 
 .wpo-shop-section .details h3 a:hover {
@@ -9730,7 +9734,7 @@ img {
 }
 
 .wpo-shop-section .add-to-cart a {
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 15px;
   font-size: 1rem;
   font-weight: 600;
@@ -10094,7 +10098,7 @@ img {
 }
 
 .wpo-shop-single-section .product-info .nav-tabs {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   border: 0;
 }
 
@@ -10122,7 +10126,7 @@ img {
   margin: 0;
   display: block;
   padding: 12px 20px 11px;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   position: relative;
 }
 
@@ -11336,7 +11340,7 @@ img {
   line-height: 1.2em;
   font-weight: 400;
   margin: -0.27em 0 0.7em;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
 }
 
 @media (max-width: 991px) {
@@ -11728,7 +11732,7 @@ img {
   font-size: 2.33333rem;
   margin: -0.22em 0 0.7em;
   line-height: 1.3em;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-weight: 400;
 }
 
@@ -11887,7 +11891,7 @@ img {
 
 .wpo-blog-single-section .tag-share .tag > span,
 .wpo-blog-single-section .tag-share-s2 .tag > span {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   color: #1C1817;
   font-weight: 400;
   display: inline-block;
@@ -11984,7 +11988,7 @@ img {
 }
 
 .wpo-blog-single-section .author-box .author-name {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-size: 1.6rem;
   font-weight: 400;
@@ -12133,7 +12137,7 @@ img {
 }
 
 .wpo-blog-single-section .more-posts .post-name {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-size: 1.2rem;
   color: #1C1817;
@@ -12232,7 +12236,7 @@ img {
 }
 
 .wpo-blog-single-section .comments-area .comments-meta h4 {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-size: 1.2rem;
   color: #1C1817;
@@ -12248,7 +12252,7 @@ img {
   text-transform: none;
   display: inline-block;
   padding-left: 5px;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
 }
 
 @media (max-width: 767px) {
@@ -12258,7 +12262,7 @@ img {
 }
 
 .wpo-blog-single-section .comments-area .comment-reply-link {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   font-size: 14px;
   font-size: 0.93333rem;
   font-weight: 400;
@@ -12266,7 +12270,7 @@ img {
   text-align: center;
   border-radius: 50px;
   display: inline-block;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   text-decoration: underline;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -12365,7 +12369,7 @@ img {
 }
 
 .wpo-blog-single-section .comment-respond .form-submit input {
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   max-width: 180px;
   background-color: #E5F346;
   color: #1C1817;
@@ -12530,7 +12534,7 @@ img {
 
 .wpo-contact-pg-section form .submit-area .theme-btn, .wpo-contact-pg-section form .submit-area .view-cart-btn {
   border-radius: 0px;
-  font-family: "Sora", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
 }
 
@@ -12721,7 +12725,7 @@ img {
   font-size: 17px;
   color: #1C1817;
   text-align: left;
-  font-family: "Epilogue";
+  font-family: "Marcellus", serif;
   text-transform: uppercase;
   font-weight: 500;
   background: #E5F346;
